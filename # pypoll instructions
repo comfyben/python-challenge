@@ -1,0 +1,28 @@
+# pypoll instructions
+
+# import python libraries
+import os
+import csv
+
+# set the file path (must be a way that the grader can open the file path)
+file_path = os.path.join("..", "Resources", "election_data.csv") # must be one directory ahead in terminal so the ".." can go back and find the resources file
+# print the first couple lines of data from the csv file
+
+# open csv file
+# do not go outside this indent in order to keep the file open and read its contents
+with open(file_path) as poll_csv 
+	csv_reader = csv.reader(poll_csv, delimeter=",")
+
+
+
+
+# using the header function, find the total number of votes cast or the column to sum
+
+# The total number of votes cast
+
+# A complete list of candaidates who received votes
+
+# The percentage of votes each candidate won on the same line
+# make sure if using a loop in this section to not close the loop (the indent) until the percentage is found too 
+
+# The winner of the elections based on popular vote
